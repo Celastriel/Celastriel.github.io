@@ -10,16 +10,23 @@ export default function Layout({children,title,currentPage} : any){
                 <link rel="icon" href="/favicon.ico" />
             </Head>
         <header className='bg-stone-500'>
-          <nav className='flex flex-row-reverse my-auto flex-1 pr-10 py-4'>      
+          <nav className='flex flex-row'>
+          <div className='py-4 pr-10 my-auto'>
+              <a className='px-5' href='/'>
+                <span>Home</span>
+              </a>
+          </div>
+          <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'>      
               <a className='px-5'>
                 <span>Contact</span>
               </a>
+              <a className='px-5' href="/resume">
+                <span>Resume</span>
+              </a>
               <a className='px-5'>
-                    <span>Resume</span>
-                  </a>
-                  <a className='px-5'>
-                    <span>Project</span>
-                  </a>
+                <span>Project</span>
+              </a>
+            </div>
             </nav>
       </header>
       <main>
