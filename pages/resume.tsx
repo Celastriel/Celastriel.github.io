@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useEffect, useRef } from 'react';
 import Layout from '../components/Layout';
 
-export default function resume(){
+export default function Resume(){
   
     return(
         <Layout title="Resume" currentPage="resume">
