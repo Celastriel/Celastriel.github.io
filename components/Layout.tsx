@@ -16,21 +16,21 @@ export default function Layout({children,title,currentPage} : any){
           <nav className='flex flex-row'>
           <div className='py-4 pr-10 my-auto'>
               <a className={optionStyle} href='/'>
-                <img src='home.png' width={20} height={20}/>
+                <img src={process.env.HOMEICO} width={20} height={20}/>
                 <span className='pl-2'>Home</span>
               </a>
           </div>
           <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'>      
               <a className={optionStyle} href="/contact">
-                <img src='contact-mail.png' width={20} height={20}/>
+                <img src={process.env.CONTACTICO} width={20} height={20}/>
                 <span className='pl-2'>Contact</span>
               </a>
               <a className={optionStyle} href="/resume">
-                <img src='resume.png' width={20} height={20}/>
+                <img src={process.env.RESUMEICO} width={20} height={20}/>
                 <span className='pl-2'>Resume</span>
               </a>
               <a className={optionStyle} href='/project'>
-                <img src='analytics.png' width={20} height={20}/>
+                <img src={process.env.PROJECTICO} width={20} height={20}/>
                 <span className='pl-2'>Project</span>
               </a>
             </div>

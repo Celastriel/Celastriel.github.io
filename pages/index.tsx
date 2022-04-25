@@ -11,8 +11,8 @@ const Home: NextPage = () => {
   return (
     <Layout title="Accueil" currentPage="home">
       <div className='flex'>
-        <img src='/profil.jpg' width={288} height={64} className='rounded-full'/>
-        <div className='my-auto mx-5'>
+        <img src={process.env.PROFIL} width={288} height={64} className='rounded-full'/>
+        <div className='mx-5 my-auto'>
             <h1>{process.env.NAME}</h1>
             <p>Web developer</p>
         </div>

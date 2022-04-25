@@ -7,7 +7,9 @@ export default function Contact(){
     return(
         <Layout title="Contact" currentPage="contact">
             <div>
-                
+                <ol>
+                    
+                </ol>
             </div>
         </Layout>
     )
