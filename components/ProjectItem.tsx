@@ -1,12 +1,26 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useEffect } from 'react'
 
-export default function ProjectItem({img,title,desc,link,option} : any){
+export default function ProjectItem({img,title,desc,link,option,timer} : any){
+
+    useEffect(()=>{
+        const nb = document.getElementsByClassName('project').length
+        for( let i=0 ; i< nb ; i++){
+            if(!document.getElementsByClassName('project')[i].classList.contains('transform')){
+            document.getElementsByClassName('project')[i].classList.add('transition-all');
+            document.getElementsByClassName('project')[i].classList.add('transform');
+            document.getElementsByClassName('project')[i].classList.add('duration-' + timer);
+            document.getElementsByClassName('project')[i].classList.remove('scale-0');
+            document.getElementsByClassName('project')[i].classList.add('scale-100');
+            }
+        }
+    },[])
 
     return (
-        <div className={option}>
+        <div className={option + ' project'}>
             <img src={img} width={250} height={250}/>
-            <div className='mx-12'>
+            <div className='mx-12 '>
                 <div className='flex flex-row items-center mb-2'>
                     <p className='text-2xl text-white'>{title}</p>
                     <a href={link} target='_blank'>

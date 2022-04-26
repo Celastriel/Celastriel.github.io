@@ -32,9 +32,9 @@ export default function Project(){
         link : process.env.LINK_PACMAN,
     }
 
-    const option : string = 'flex my-5 justify-start mx-48'
+    const option : string = 'static flex my-5 justify-start mx-48 scale-0'
 
-    const optionOne : string = option + ' flex-row '
+    const optionOne : string = option + ' flex-row'
     const optionTwo : string = option + ' flex-row-reverse '
 
     return (
@@ -44,19 +44,25 @@ export default function Project(){
                 title={pwa.title}
                 desc={pwa.desc}
                 link={pwa.link}
-                option={optionOne}/>
+                option={optionOne}
+                timer={1000}
+                />
             <ProjectItem 
                 img={process.env.DISCORD}
                 title={discord.title}
                 desc={discord.desc}
                 link={discord.link}
-                option={optionTwo}/>
+                option={optionTwo}
+                timer={2000}
+                />
             <ProjectItem 
                 img={process.env.PACMAN}
                 title={pacman.title}
                 desc={pacman.desc}
                 link={pacman.link}
-                option={optionOne}/>
+                option={optionOne}
+                timer={3000}
+                />
         </Layout>
     )
 }
