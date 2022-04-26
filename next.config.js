@@ -29,7 +29,7 @@ const nextConfig = {
     loader: [ "default", "imgix", "cloudinary", "akamai", "custom" ],
     path : '',
   },
-  assetPrefix: isProd ? "/nextjs-github-pages/" : ""
+  assetPrefix: isProd ? "/Celastriel.github.io/" : ""
 }
 
 module.exports = nextConfig
