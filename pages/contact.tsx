@@ -10,11 +10,11 @@ export default function Contact(){
                 <ul className="list-none">
                     <li className="flex flex-row">
                         <p>Numéro de Téléphone Belge : </p>
-                        <p>+32 471 28 91 78</p>
+                        <p>{process.env.TEL}</p>
                     </li>
                     <li className="flex flex-row">
                         <p>Adresse Email : </p>
-                        <p>jimmymention@gmail.com</p>
+                        <p>{process.env.EMAIL}</p>
                     </li>
                 </ul>
             </div>
