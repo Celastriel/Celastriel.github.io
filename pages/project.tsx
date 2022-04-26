@@ -7,26 +7,31 @@ export default function Project(){
 
     const pwa = {
         title : 'PWA SimplyBook',
-        desc : ``,
+        desc : `Progessive Web App eeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        `,
         link : process.env.LINK_PWA,
     }
 
     const discord = {
         title : 'Bot Discord NodeJS',
-        desc : ``,
+        desc : `
+
+        `,
         link : process.env.LINK_DISCORD,
     }
 
     const pacman = {
         title : 'Pacman Javascript',
-        desc : ``,
+        desc : `
+
+        `,
         link : process.env.LINK_PACMAN,
     }
 
-    const option = 'flex justify-center my-10 '
+    const option : string = 'flex my-5 justify-start mx-48'
 
-    const optionOne = option + 'flex-row'
-    const optionTwo = option + 'flex-row-reverse'
+    const optionOne : string = option + ' flex-row '
+    const optionTwo : string = option + ' flex-row-reverse '
 
     return (
         <Layout title="Project" currentPage="project">

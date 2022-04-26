@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     NAME: 'Jimmy Mention',
+    FUNCTION : 'Web Developer',
     EMAIL : 'jimmymention@gmail.com',
     TEL : '+32 471 28 91 78',
 

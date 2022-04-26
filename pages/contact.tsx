@@ -4,19 +4,19 @@ import Layout from "../components/Layout";
 
 export default function Contact(){
 
-    const titleTel = 'Numéro de Téléphone Belge : ';
-    const titleMail = 'Adresse Email : ';
+    const titleTel : string = 'Numéro de Téléphone : ';
+    const titleMail : string = 'Adresse Email : ';
 
     return(
         <Layout title="Contact" currentPage="contact">
             <div>
-                <ul className="list-none">
-                    <li className="flex flex-row">
-                        <p>{titleTel}</p>
+                <ul className="px-6 py-6 mx-32 mt-32 text-4xl italic list-none bg-white border-8 border-black border-double">
+                    <li className="flex flex-row my-2">
+                        <p className="w-96">{titleTel}</p>
                         <p>{process.env.TEL}</p>
                     </li>
-                    <li className="flex flex-row">
-                        <p>{titleMail}</p>
+                    <li className="flex flex-row my-2">
+                        <p className="w-96">{titleMail}</p>
                         <p>{process.env.EMAIL}</p>
                     </li>
                 </ul>

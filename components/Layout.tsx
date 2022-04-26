@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function Layout({children,title,currentPage} : any){
 
-    const optionStyle = 'px-5 text-white hover:text-shade-light font-bold italic flex flex-row';
-    const mainTitle = 'Jimmy Mention Portfolio';
-    const mainFooter = 'Portfolio Réaliser en NodeJS avec NextJS & Tailwind';
+    const optionStyle : string = 'px-5 text-white hover:text-shade-light font-bold italic flex flex-row';
+    const mainTitle: string = 'Jimmy Mention Portfolio';
+    const mainFooter : string = 'Portfolio Réaliser en NodeJS avec NextJS & Tailwind';
     const tab = {
       home : 'Home',
       contact : 'Contact',
