@@ -27,7 +27,7 @@ export default function Layout({children,title,currentPage} : any){
           <div className='py-4 pr-10 my-auto'>
               <Link href='/'>
                 <a className={optionStyle} >
-                  <Image src='/img/home.png' width={30} height={20} className='bg-white rounded-full'/>
+                  <Image src='img/home.png' width={30} height={20} className='bg-white rounded-full'/>
                   <span className='pl-2'>{tab.home}</span>
                 </a>
               </Link>
@@ -35,19 +35,19 @@ export default function Layout({children,title,currentPage} : any){
           <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'> 
               <Link href="/contact">     
               <a className={optionStyle} >
-                <Image src='/img/contact-mail.png' width={30} height={20} className='bg-white rounded-full'/>
+                <Image src='img/contact-mail.png' width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.contact}</span>
               </a>
               </Link>
               <Link href="/resume">  
               <a className={optionStyle + ' invisible lg:visible'} >
-                <Image src='/img/resume.png' width={30} height={20} className='bg-white rounded-full'/>
+                <Image src='img/resume.png' width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.resume}</span>
               </a>
               </Link>
               <Link href='/project'> 
               <a className={optionStyle} >
-                <Image src='/img/analytics.png' width={30} height={20} className='bg-white rounded-full'/>
+                <Image src='img/analytics.png' width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.project}</span>
               </a>
               </Link>

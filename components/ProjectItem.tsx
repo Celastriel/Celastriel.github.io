@@ -25,7 +25,7 @@ export default function ProjectItem({img,title,desc,link,option,timer} : any){
                 <div className='flex flex-row items-center mb-2'>
                     <p className='mr-4 text-2xl text-white'>{title}</p>
                     <a href={link} target='_blank' rel="noreferrer">
-                        <Image src='/img/github.png' width={30} height={30} className='ml-4'/>
+                        <Image src='img/github.png' width={30} height={30} className='ml-4'/>
                     </a>
                 </div>
                 <p className='absolute bg-white border-2 rounded-lg w-72 h-44'>{desc}</p>

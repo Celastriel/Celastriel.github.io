@@ -29,8 +29,6 @@ const nextConfig = {
     loader: 'akamai',
     path : '',
   },
-  basePath: '/',
-  assetPrefix: '/',
 }
 
 module.exports = nextConfig
