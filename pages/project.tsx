@@ -7,14 +7,17 @@ export default function Project(){
 
     const pwa = {
         title : 'PWA SimplyBook',
-        desc : `Progessive Web App eeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        desc : `Progessive Web App dont le but est d'utiliser l'api de Simplybook afin d'afficher les datas de manière simple est intuitif. L'app restructure les données
+        afin de pouvoir les utiliser de manière fluide.
         `,
         link : process.env.LINK_PWA,
     }
 
     const discord = {
         title : 'Bot Discord NodeJS',
-        desc : `
+        desc : `Bot discord permettant de réaliser des parties du jeux de rôle "Seven Sea" à l'aide de commande.
+        Celui-ci incorpore une save des datas en JSON dont les caractéristique des personnage, quêtes et items.
+        Il affiche les cartes et possède un système complexe de mise.
 
         `,
         link : process.env.LINK_DISCORD,
@@ -22,7 +25,8 @@ export default function Project(){
 
     const pacman = {
         title : 'Pacman Javascript',
-        desc : `
+        desc : `Pacman réaliser avec un minimum de HTML, presque la totalité est réaliser en CSS/Javascript. Il permet de faire des parties où
+        le pacman doit être diriger manuellement avec les flèches directionnel tout étant pourchasser par 4 fantômes.
 
         `,
         link : process.env.LINK_PACMAN,
