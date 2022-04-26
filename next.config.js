@@ -25,6 +25,10 @@ const nextConfig = {
     LINK_DISCORD : 'https://github.com/Celastriel/nodeJs-botDiscord',
     LINK_PACMAN : 'https://github.com/Celastriel/Pacman',
   },
+  images: {
+    loader: 'akamai',
+    path : '',
+  }
 }
 
 module.exports = nextConfig
