@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
   env: {
@@ -25,11 +24,5 @@ const nextConfig = {
     LINK_DISCORD : 'https://github.com/Celastriel/nodeJs-botDiscord',
     LINK_PACMAN : 'https://github.com/Celastriel/Pacman',
   },
-  images: {
-    loader: "imgix",
-    path : '',
-  },
-  assetPrefix: isProd ? "/Celastriel.github.io/" : ""
 }
-
 module.exports = nextConfig

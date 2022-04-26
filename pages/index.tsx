@@ -23,14 +23,14 @@ ainsi que mon CV
     document.getElementsByClassName('p-spitch')[0].innerHTML = spitch
 
     document.getElementsByClassName('profil')[0].classList.remove('lg:-right-96')
-    document.getElementsByClassName('profil')[0].classList.add('lg:right-96')
+    document.getElementsByClassName('profil')[0].classList.add('lg:right-48')
 
   },[])
 
   return (
     <Layout title="Accueil" currentPage="home">
       <div className='flex lg:mt-12 lg:ml-24'>
-        <Image src="/img/profil.jpg" width={200} height={64} className='absolute invisible transition-all duration-500 transform lg:rounded-full lg:ml-24 2xl:visible lg:-right-96 -right-96 profil'/>
+        <img src={process.env.PROFIL} width={288} height={64} className='absolute invisible transition-all duration-500 transform lg:rounded-full lg:ml-24 lg:visible lg:-right-96 -right-96 profil'/>
         <div className='relative pl-10 my-auto italic text-white lg:mx-24 text-8xl'>
             <h1>{process.env.NAME}</h1>
             <p>{process.env.FUNCTION}</p>
