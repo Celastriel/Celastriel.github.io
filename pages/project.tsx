@@ -23,8 +23,10 @@ export default function Project(){
         link : process.env.LINK_PACMAN,
     }
 
-    const optionOne = 'flex flex-row justify-center my-5'
-    const optionTwo = 'flex flex-row-reverse justify-center my-5'
+    const option = 'flex justify-center my-10 '
+
+    const optionOne = option + 'flex-row'
+    const optionTwo = option + 'flex-row-reverse'
 
     return (
         <Layout title="Project" currentPage="project">

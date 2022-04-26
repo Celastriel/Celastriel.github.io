@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     colors: {
       'shade' : '#0f3248',
+      'shade-light' : '#7273b4',
       'black' : 'black',
       'white' : 'white',
     },
