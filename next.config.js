@@ -26,7 +26,7 @@ const nextConfig = {
     LINK_PACMAN : 'https://github.com/Celastriel/Pacman',
   },
   images: {
-    loader: [ "default", "imgix", "cloudinary", "akamai", "custom" ],
+    loader: "imgix",
     path : '',
   },
   assetPrefix: isProd ? "/Celastriel.github.io/" : ""
