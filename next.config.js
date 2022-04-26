@@ -8,18 +8,18 @@ const nextConfig = {
     EMAIL : 'jimmymention@gmail.com',
     TEL : '+32 471 28 91 78',
 
-    ICO_HOME : 'img/home.png',
-    ICO_PROJECT : 'img/analytics.png',
-    ICO_RESUME : 'img/resume.png',
-    ICO_CONTACT : 'img/contact-mail.png',
+    ICO_HOME : '/img/home.png',
+    ICO_PROJECT : '/img/analytics.png',
+    ICO_RESUME : '/img/resume.png',
+    ICO_CONTACT : '/img/contact-mail.png',
 
-    PROFIL : 'img/profil.jpg',
+    PROFIL : '/img/profil.jpg',
 
-    PWA : 'img/booking.png',
-    DISCORD : 'img/discord.png',
-    PACMAN : 'img/gamepad.png',
+    PWA : '/img/booking.png',
+    DISCORD : '/img/discord.png',
+    PACMAN : '/img/gamepad.png',
 
-    GITHUB : 'img/github.png',
+    GITHUB : '/img/github.png',
 
     LINK_PWA : 'https://github.com/Celastriel/PWA_Simplybook',
     LINK_DISCORD : 'https://github.com/Celastriel/nodeJs-botDiscord',

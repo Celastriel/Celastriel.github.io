@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 import Link from 'next/link'
 
 export default function Layout({children,title,currentPage} : any){
@@ -24,24 +25,32 @@ export default function Layout({children,title,currentPage} : any){
         <header className='w-full bg-black'>
           <nav className='flex flex-row'>
           <div className='py-4 pr-10 my-auto'>
-              <a className={optionStyle} href='/'>
-                <img src={process.env.ICO_HOME} width={30} height={20} className='bg-white rounded-full'/>
-                <span className='pl-2'>{tab.home}</span>
-              </a>
+              <Link href='/'>
+                <a className={optionStyle} >
+                  <Image src={process.env.ICO_HOME} width={30} height={20} className='bg-white rounded-full'/>
+                  <span className='pl-2'>{tab.home}</span>
+                </a>
+              </Link>
           </div>
-          <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'>      
-              <a className={optionStyle} href="/contact">
-                <img src={process.env.ICO_CONTACT} width={30} height={20} className='bg-white rounded-full'/>
+          <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'> 
+              <Link href="/contact">     
+              <a className={optionStyle} >
+                <Image src={process.env.ICO_CONTACT} width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.contact}</span>
               </a>
-              <a className={optionStyle + ' invisible lg:visible'} href="/resume">
-                <img src={process.env.ICO_RESUME} width={30} height={20} className='bg-white rounded-full'/>
+              </Link>
+              <Link href="/resume">  
+              <a className={optionStyle + ' invisible lg:visible'} >
+                <Image src={process.env.ICO_RESUME} width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.resume}</span>
               </a>
-              <a className={optionStyle} href='/project'>
-                <img src={process.env.ICO_PROJECT} width={30} height={20} className='bg-white rounded-full'/>
+              </Link>
+              <Link href='/project'> 
+              <a className={optionStyle} >
+                <Image src={process.env.ICO_PROJECT} width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.project}</span>
               </a>
+              </Link>
             </div>
             </nav>
       </header>

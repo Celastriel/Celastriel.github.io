@@ -30,7 +30,7 @@ ainsi que mon CV
   return (
     <Layout title="Accueil" currentPage="home">
       <div className='flex lg:mt-12 lg:ml-24'>
-        <img src={process.env.PROFIL} width={288} height={64} className='absolute invisible transition-all duration-500 transform lg:rounded-full lg:ml-24 2xl:visible lg:-right-96 -right-96 profil'/>
+        <Image src={process.env.PROFIL} width={200} height={64} className='absolute invisible transition-all duration-500 transform lg:rounded-full lg:ml-24 2xl:visible lg:-right-96 -right-96 profil'/>
         <div className='relative pl-10 my-auto italic text-white lg:mx-24 text-8xl'>
             <h1>{process.env.NAME}</h1>
             <p>{process.env.FUNCTION}</p>
