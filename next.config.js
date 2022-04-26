@@ -16,7 +16,11 @@ const nextConfig = {
 
     PWA : 'img/booking.png',
     DISCORD : 'img/discord.png',
-    PACMAN : 'img/gamepad.png'
+    PACMAN : 'img/gamepad.png',
+
+    LINK_PWA : 'https://github.com/Celastriel/PWA_Simplybook',
+    LINK_DISCORD : 'https://github.com/Celastriel/nodeJs-botDiscord',
+    LINK_PACMAN : 'https://github.com/Celastriel/Pacman',
   }
 }
 
