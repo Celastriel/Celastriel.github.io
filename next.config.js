@@ -26,9 +26,10 @@ const nextConfig = {
     LINK_PACMAN : 'https://github.com/Celastriel/Pacman',
   },
   images: {
-    loader: 'akamai',
+    loader: [ "default", "imgix", "cloudinary", "akamai", "custom" ],
     path : '',
   },
+  assetPrefix: isProd ? "/nextjs-github-pages/" : ""
 }
 
 module.exports = nextConfig

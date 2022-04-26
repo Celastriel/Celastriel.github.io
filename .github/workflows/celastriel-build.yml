@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
+    - run: npm i
     - run: npm run build 
     - run: npm run export
 
@@ -35,5 +35,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.3.0
       with:
         branch: gh-pages # The branch the action should deploy to.
-        folder: out # The folder the action should deploy.
+        folder: ./out # The folder the action should deploy.
 
