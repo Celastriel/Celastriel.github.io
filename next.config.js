@@ -3,12 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     NAME: 'Jimmy Mention',
-    FUNCTION : 'Web Developer',
+    FUNCTION : 'Développeur Web',
 
     ICO_HOME : '/img/home.png',
     ICO_PROJECT : '/img/analytics.png',
     ICO_RESUME : '/img/resume.png',
-    ICO_CONTACT : '/img/contact-mail.png',
 
     PROFIL : '/img/profil.jpg',
 

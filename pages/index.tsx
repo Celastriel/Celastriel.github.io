@@ -7,14 +7,12 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
 
-  const balise : string = 'About  </>';
+  const balise : string = 'Présentation  </>';
   const spitch : string = `Bonjour, je me présente.</br>
-J'ai commencé le développement en 2017 à la Haute école HELHa à Mons.</br>
-Suite à ce Bachelier, j'ai également entâmer une formation </br>
-Cefora en développement NodeJS.</br>
+J'ai commencé le développement en 2017 à la Haute école HELHa à Mons en Informatique de gestion.</br>
+Suite à ce Bachelier, j'ai également réaliser une formation Cefora en développement NodeJS.</br>
 Je suis activement à la recherche d'un emploi, </br>
-n'hésiter pas à consulter les projets que j'ai réaliser</br>
-ainsi que mon CV
+n'hésiter pas à consulter les projets que j'ai réaliser ainsi que mon CV
 `
 
   useEffect(()=>{

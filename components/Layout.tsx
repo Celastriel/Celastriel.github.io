@@ -7,10 +7,10 @@ export default function Layout({children,title,currentPage} : any){
     const mainTitle: string = 'Jimmy Mention Portfolio';
     const mainFooter : string = 'Portfolio Réaliser en NodeJS avec NextJS & Tailwind';
     const tab = {
-      home : 'Home',
-      contact : 'Contact',
-      resume : 'Resume',
-      project : 'Project'
+      home : 'Accueil',
+      //contact : 'Contact',
+      resume : 'CV',
+      project : 'Projet'
     }
 
 
@@ -31,13 +31,14 @@ export default function Layout({children,title,currentPage} : any){
                 </a>
               </Link>
           </div>
+      
           <div className='flex flex-row-reverse flex-1 py-4 pr-10 my-auto'> 
-              <Link href="/contact">     
+              {/* <Link href="/contact">     
               <a className={optionStyle} >
                 <img src={process.env.ICO_CONTACT} width={30} height={20} className='bg-white rounded-full'/>
                 <span className='pl-2'>{tab.contact}</span>
               </a>
-              </Link>
+              </Link> */}
               <Link href="/resume">  
               <a className={optionStyle + ' invisible lg:visible'} >
                 <img src={process.env.ICO_RESUME} width={30} height={20} className='bg-white rounded-full'/>
