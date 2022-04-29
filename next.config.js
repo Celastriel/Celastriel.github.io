@@ -5,10 +5,6 @@ const nextConfig = {
     NAME: 'Jimmy Mention',
     FUNCTION : 'Développeur Web',
 
-    ICO_HOME : '/img/home.png',
-    ICO_PROJECT : '/img/analytics.png',
-    ICO_RESUME : '/img/resume.png',
-
     PROFIL : '/img/profil.jpg',
 
     PWA : '/img/booking.png',
