@@ -13,9 +13,7 @@ export default function NavBar(){
         project : 'Projet'
       }
       
-      const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-width: 1224px)'
-      })
+      const isDesktopOrLaptop = useMediaQuery({query: '(min-width: 1224px)'})
       const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
       const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
       const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
@@ -33,7 +31,7 @@ export default function NavBar(){
             <li>
               <Link href={'/'}>
                 
-                <a href="#" className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0" aria-current="page">
+                <a className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0" aria-current="page">
                   <div className='flex flex-row items-center'>
                     <FontAwesomeIcon icon={faHouse} />
                     <span className='ml-5'>{tab.home}</span>
@@ -43,7 +41,7 @@ export default function NavBar(){
             </li>
             <li>
               <Link href={'/project'}>
-                <a href="#" className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0 ">
+                <a className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0 ">
                   <div className='flex flex-row items-center'>
                   <FontAwesomeIcon icon={faFolderTree} />
                     <span className='ml-5'>{tab.project}</span>
@@ -54,7 +52,7 @@ export default function NavBar(){
             <li>
               {isDesktopOrLaptop ?
               <Link href={'/resume'}>
-                <a href="#" className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0">
+                <a className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0">
                   <div className='flex flex-row items-center'>
                   <FontAwesomeIcon icon={faIdCard} />
                     <span className='ml-5'>{tab.resume}</span>
@@ -62,8 +60,8 @@ export default function NavBar(){
                 </a>
               </Link>
               :
-              <Link href={'files/CV.pdf'}>
-                <a href='files/CV.pdf' target={'_blank'} className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0">
+              <Link href={'/files/CV.pdf'}>
+                <a className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0">
                   <div className='flex flex-row items-center'>
                   <FontAwesomeIcon icon={faIdCard} />
                     <span className='ml-5'>{tab.resume}</span>
