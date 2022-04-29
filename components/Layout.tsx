@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import NavBar from './NavBar';
+import Script from 'next/script';
 
 export default function Layout({children,title,currentPage} : any){
 
@@ -30,7 +31,7 @@ export default function Layout({children,title,currentPage} : any){
           </div>
         </div>
       </footer>
-        <script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></script>
+        <Script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></Script>
       </div>
     )
 }
