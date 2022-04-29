@@ -21,7 +21,7 @@ export default function Layout({children,title,currentPage} : any){
         <header> 
           <NavBar></NavBar>
         </header>
-        <main className='mb-16'>
+        <main className='mb-28'>
           {children}
         </main>
         <footer className='fixed bottom-0 w-full'>
