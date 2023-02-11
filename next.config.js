@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   env: {
     NAME: 'Jimmy Mention',
-    FUNCTION : 'Développeur Web',
+    FUNCTION : 'Développeur',
 
     PROFIL : '/img/profil.jpg',
 
