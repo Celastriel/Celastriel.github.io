@@ -49,7 +49,7 @@ export default function Project(){
                     <div key={i}>
                         {isDesktopOrLaptop
                         ?
-                        <div className={'flex my-5 justify-center flex-row'}>
+                        <div className={'flex my-5 justify-center flex-row border-black'}>
                             <img src={p.img} width={250} height={250}/>
                             <div className='mx-12 '>
                                 <div className='flex flex-row items-center mb-2'>
@@ -62,7 +62,7 @@ export default function Project(){
                             </div>
                         </div>
                         :
-                        <div className='flex flex-col items-center mx-12'>
+                        <div className='flex flex-col items-center mx-12 border-black'>
                             <div className='flex flex-row items-center mb-2'>
                                 <p className='text-2xl text-white'>{p.title}</p>
                                 <a href={p.link} target='_blank' rel="noreferrer">
