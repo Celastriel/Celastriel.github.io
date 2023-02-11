@@ -53,7 +53,7 @@ export default function Project(){
                             <img src={p.img} width={250} height={250}/>
                             <div className='mx-12 '>
                                 <div className='flex flex-row items-center mb-2'>
-                                    <p className='text-2xl text-white'>{p.title}</p>
+                                    <p className='text-2xl'>{p.title}</p>
                                     <a href={p.link} target='_blank' rel="noreferrer">
                                         <img src={'/img/github.png'} width={30} height={30} className='ml-4'/>
                                     </a>
@@ -64,7 +64,7 @@ export default function Project(){
                         :
                         <div className='flex flex-col items-center mx-12 border-black'>
                             <div className='flex flex-row items-center mb-2'>
-                                <p className='text-2xl text-white'>{p.title}</p>
+                                <p className='text-2xl'>{p.title}</p>
                                 <a href={p.link} target='_blank' rel="noreferrer">
                                     <img src={'/img/github.png'} width={30} height={30} className='ml-4'/>
                                 </a>
