@@ -8,7 +8,7 @@ export default function Resume(){
     return(
         <Layout title="Resume" currentPage="resume">
             <div>
-                <iframe src='/files/CV.pdf' width="100%" height="2000px"></iframe>
+                <iframe src='/files/JimmyMention_CurriculumVitae.pdf' width="100%" height="2000px"></iframe>
             </div>
         </Layout>
     )

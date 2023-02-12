@@ -55,7 +55,7 @@ export default function NavBar(){
                 </a>
               </Link>
               :
-              <Link href={'/files/CV.pdf'}>
+              <Link href={'/files/JimmyMention_CurriculumVitae.pdf'}>
                 <a className="block py-2 pl-3 pr-4 text-white hover:bg-shade-light md:hover:bg-transparent md:border-0 md:hover:text-shade-light md:p-0">
                   <div className='flex flex-row items-center'>
                   <FontAwesomeIcon icon={faIdCard} />
