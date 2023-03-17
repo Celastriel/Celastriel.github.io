@@ -32,10 +32,10 @@ const Home: NextPage = () => {
         <h2 className='mb-4 text-4xl font-bold'></h2>
           <p className='mt-2'>Bonjour, je me présente.</p>
           <p className='mt-2'>J'ai commencé le développement en 2017 avec un Bachelier en Informatique de Gestion à HELHa Mons.</p>
-          <p className='mt-2'>Afin d'améliorer mes compétences j'ai également suivit une Formation Cefora en développement NodeJS.</p>
-          <p className='mt-2'>Je suis activement à la recherche d'un emploie, n'hésitez pas à consulter les différents projets que j'ai réalisé jusqu'ici.</p>
-          <p className='mt-2'>Vous trouverez également une copie de mon CV que je met à votre disposition.</p>
-          <p className='mt-2'>Bonne visite</p>
+          <p className='mt-2'>Afin d'améliorer mes compétences j'ai également suivi une Formation Cefora en développement NodeJS.</p>
+          <p className='mt-2'>Je suis activement à la recherche d'un emploi, n'hésitez pas à consulter les différents projets que j'ai réalisé jusqu'ici.</p>
+          <p className='mt-2'>Vous trouverez également une copie de mon CV que je mets à votre disposition.</p>
+          <p className='mt-2'>Bonne visite.</p>
       </div>
     </Layout>
   )
